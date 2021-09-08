@@ -1,0 +1,47 @@
+﻿
+.main-bg{
+    background-image: url(/assets/img/main-bg.svg);
+    background-size: cover;
+    background-position: center center;
+    color:var(--white-color);
+}
+
+.white-bg{
+    background:var(--white-color);
+    color: var(--primary-color);
+}
+
+
+.main-content{
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 10rem var(--gap);
+}
+
+.section{
+    min-height: 100vh;
+}
+
+.top3-content{
+    max-width: 64rem;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    text-align: center;
+
+
+}
+.grid-one{
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--gap);
+    counter-reset: grid-counter;
+}
