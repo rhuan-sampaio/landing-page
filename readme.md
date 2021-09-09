@@ -1,6 +1,6 @@
 ﻿# Landing Page
 
-Status: Complete ✅
+Status: Complete ✅ <br>
 This repository is study project, to test skills around some front-end technologies.
 
 ## Technologies
